@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+    background-color: #0A122A;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    color: #FBFAF8;;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+form {
+    background-color: #FBFAF8;
+}
+.cadastro {
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    padding: 20px;
+    border: 2px solid #000;
+    font-size: 22px;
+    background-color: #FBFAF8;
+}
+.cadastro input{
+	width: 350px;
+	height: 30px;
+	border-radius: 15px;
+	outline: none;
+	margin-bottom: 10px;
+    margin-top: 5px;
+}
+.cadastro-int {
+    display: flex;
+	justify-content: space-between;
+	width: 70%;
+}
+.novidades{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.novidades .novidade-but {
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.selecionar {
+    display: flex;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.botoes{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.botoes .botaos {
+    font-size: 18px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.botoes .botaos:hover {
+    background-color: #0A122A;
+    color: #fff;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+footer .footer a {
+    color: #FBFAF8;
+    text-decoration: none;
+    font-size: 12px;
+}
